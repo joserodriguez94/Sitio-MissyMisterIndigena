@@ -1,0 +1,166 @@
+/* fuentes de letras
+
+font-family: 'Exo', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Parisienne', cursive;
+*/
+
+#navbar {
+    z-index: 3;
+}
+
+.nav-link:hover {
+    background: hsla(44, 5%, 45%, 0.7);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.navcontenido {
+    list-style: none;
+}
+
+.button {
+    height: 50px;
+}
+
+.titulodebanner {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Parisienne', cursive;
+}
+
+.bloquetitulo2 {
+    background: hsla(0, 0%, 72%, 0.5);
+    color: black;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.letra {
+    font-size: 500px;
+}
+
+.d-block {
+    margin-top: 88px;
+}
+
+.position {
+    position: fixed;
+}
+
+.baner {
+    height: 250px;
+}
+
+.border-redes {
+    border-radius: 5px;
+}
+
+@media (min-width: 480px) {
+    /* logo */
+    .logo {
+        width: 100px;
+        height: 80px;
+    }
+    .titulodebanner {
+        font-size: 32px;
+    }
+    .baner {
+        height: 300px;
+    }
+    /*fin de logo*/
+    /*-----------Baner-------------*/
+    /*---------Fin de Baner----------*/
+}
+
+@media (min-width: 579px) {
+    .bloquetitulo1 {
+        margin-top: -10%;
+    }
+    .titulodebanner {
+        font-size: 35px;
+    }
+    .baner {
+        height: 350px;
+    }
+}
+
+@media (min-width: 768px) {
+    .d-block {
+        height: 550px;
+    }
+    .bloqueindegena {
+        margin-top: -1%;
+    }
+    .bloquetitulo1 {
+        margin-top: -20%;
+    }
+    .baner {
+        height: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    .d-block {
+        height: 700px;
+    }
+    .bloquetitulo1 {
+        margin-top: -15%;
+    }
+    .titulodebanner {
+        font-size: 40px;
+    }
+    .baner {
+        height: 550px;
+    }
+}
+
+@media (min-width: 1080px) {
+    /* logo */
+    /*fin de logo*/
+    /*-----------Baner-------------*/
+    .d-block {
+        height: 700px;
+    }
+    .titulodebanner {
+        font-size: 45px;
+    }
+    .text1 {
+        width: 65%;
+    }
+    .text2 {
+        width: 40%;
+    }
+    .baner {
+        height: 600px;
+    }
+    /*---------Fin de Baner----------*/
+}
+
+@media (min-width: 1200px) {
+    /* --------Carrusel----------*/
+    .d-block {
+        height: auto;
+    }
+    .bloqueindegena {
+        margin-top: -1%;
+    }
+    .logo {
+        width: 120px;
+        height: 100px;
+        margin-top: 1%;
+    }
+    .nav-mister {
+        margin-top: -2%;
+        font-size: 18px;
+    }
+    .text1 {
+        width: 55%;
+    }
+    .baner {
+        height: 730px;
+    }
+    /* --------Fin de Carrusel----------*/
+}
